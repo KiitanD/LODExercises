@@ -38,11 +38,14 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle{" + this.getName() + this.getX() + this.getY() + this.getHeight() + this.getWidth() + "}";
+        return "Rectangle" + "\nx: " + this.getX() + "\ny: " + this.getY()
+                + "\nheight: " + height +"\nwidth: " + width
+                + "\nArea: " + this.getArea() +"\nCentre: " + this.getCentrePoint();
+
     }
 
     public boolean isSquare() {
-        if (this.getHeight() == this.getWidth()) {
+        if (height == width) {
             return true;
         }
         return false;

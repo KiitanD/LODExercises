@@ -27,6 +27,6 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{x: " + x + "\ny: " + y + "}";
+        return "Point\nx: " + x + "\ny: " + y;
     }
 }
