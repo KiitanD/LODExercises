@@ -1,5 +1,5 @@
 import React from 'react'
-
+import HeroDetail from './HeroDetail'
 const heroes = [
     {"id":1,"name":"Bruce Wayne","alias":"Batman","superpower":"Martial Arts","teamID":1},
     {"id":2,"name":"Clark Kent","alias":"Superman","superpower":"Flight","teamID":1},

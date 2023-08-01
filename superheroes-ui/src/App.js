@@ -1,5 +1,5 @@
 import './App.css';
-import AllHeroes from './components/HeroDetail'
+import AllHeroes from './components/AllHeroes'
 function App() {
   return ( <AllHeroes />);
 }
